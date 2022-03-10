@@ -18,12 +18,17 @@
 
     <p>Aqui vai o resultado</p>
 
-    <div>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+
+    <div id="msg">
         Click here!
     </div>
 
     <script>
-        
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'yellow'
     </script>
 </body>
 </html>
